@@ -1,0 +1,23 @@
+<article class="row">
+  <div class="col-6">
+    <label>Dime algo</label>
+    <input type ="text" [(ngModel)] = "sNombre">
+    <input type ="checkbox" [(ngModel)] = "isSpanish">
+    <button (click)="btnBorrar()">
+      Borrar
+    </button>
+  </div>
+  <div class="col-6">
+    <p> Hola {{sNombre}}</p>
+  </div>
+</article>
+<article class="row">
+    <div class="col">
+      <h2> Expresiones</h2>
+      <p>El producto de {{nNumber}} * 4 es: {{nNumber *4}}</p>
+      <p>{{isSpanish?'Gracias':'Thanks'}}</p>
+    </div>
+    <div class="col">
+      <h2>Uso de referencias locales</h2>
+    </div>
+</article>
