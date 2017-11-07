@@ -1,4 +1,5 @@
 class Libro{
+    //En ES6 no es necesario declarar las propiedades de un objeto, se crean cuando se necesitan
     constructor(autor, titulo){
         this.autor = autor;
         this.titulo = titulo;
